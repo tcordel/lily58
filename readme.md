@@ -1,17 +1,25 @@
-# Aurora Lily58's Default Keymap
+# Tcordel aurora Lily58's Default Keymap
 _This keymap is a copy of the [Lily58 default keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58/keymaps/default), with slight modifications._
+
+
+
+## Commands
+qmk config user.keyboard=splitkb/aurora/lily58/rev1
+qmk config user.keymap=tcordel 
+qmk compile -e CONVERT_TO=liatris
+qmk flash -e CONVERT_TO=liatris
 
 A simple default keymap for the Aurora Lily58
 =============================================
 
 Keymaps in general are quite personal, so it is difficult to come up with a default that will suit every user. We hope this keymap serves as a good starting point for your own - although it should be fairly usable out-of-the-box.
 
-What do all these layers do?
+## Keymaps
 ----------------------------
 
 ### Layer 0: Base layer
 
-![Layer 0](https://i.imgur.com/sq8Rql7h.png)
+![Layer 0](images/layer0.png)
 
 This is where your basic letters live.
 
@@ -23,19 +31,19 @@ The homing thumb fingers are used to access the different layers.
 
 ### Layer 1: Lower
 
-![Layer 1](https://i.imgur.com/baSE2OJh.png)
+![Layer 1](images/layer1.png)
 
 The Lower layer gives access to the F keys on the second row, and shifted number keys on the home row. It also provides some shifted symbol keys.
 
 ### Layer 2: Raise
 
-![Layer 2](https://i.imgur.com/CRnDa6Nh.png)
+![Layer 2](images/layer2.png)
 
 The Raise layer gives access the arrow keys on the right hand, in addition to some unshifted symbols. The left hand provides an alternative set of F keys, while the second row provides an alternative set of number keys.
 
 ### Layer 3: Adjust
 
-![Layer 3](https://i.imgur.com/QbCiTcyh.png)
+![Layer 3](images/layer3.png)
 
 The Adjust layer exposes RGB adjustment keys on the right hand.
 
