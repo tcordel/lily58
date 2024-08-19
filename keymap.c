@@ -7,14 +7,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_TAB,    FR_A,   FR_Z,   FR_E,   FR_R,   FR_T,                   FR_Y,   FR_U,   FR_I,   FR_O,   FR_P,    FR_CIRC,
         KC_LSFT,    FR_Q,   FR_S,   FR_D,   FR_F,   FR_G,                   FR_H,   FR_J,   FR_K,   FR_L,   FR_M,   KC_QUOT,
         KC_LCTL,    FR_W,   FR_X,   FR_C,   FR_V,   FR_B,FR_UNDS,   FR_DLR, FR_N,   FR_COMM,FR_SCLN,FR_COLN,FR_EXLM,  KC_RSFT,
-                                KC_LALT, KC_LGUI,   MO(1),KC_SPC,   KC_ENT, MO(2), KC_BSPC, KC_ENT),
+                                KC_LGUI, KC_LALT,   MO(1),KC_SPC,   KC_ENT, MO(2), KC_BSPC, KC_RALT),
 
 
     [1] = LAYOUT(
         KC_TRNS, KC_NO,    KC_NO,   KC_NO,     KC_NO,   KC_NO,                     KC_NO,   KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,
         KC_TRNS, KC_NO,    KC_NO, FR_DQUO,   FR_QUOT,  FR_GRV,                     KC_NO,   KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,
         KC_TRNS, KC_NO, FR_MINS, FR_PLUS,     FR_EQL, FR_ASTR,                   KC_LEFT, KC_DOWN, KC_UP, KC_RGHT,KC_HOME, KC_PGUP,
-        KC_TRNS, KC_NO,   FR_DEG, FR_TILD,     FR_AT, FR_PIPE,  FR_SLSH, FR_BSLS,  FR_HASH,   KC_NO, KC_NO, KC_NO,  KC_END, KC_PGDN,
+        KC_TRNS, KC_NO,   FR_DEG, FR_TILD,     FR_AT, FR_PIPE,  FR_SLSH, FR_BSLS,  FR_HASH,   FR_DLR, KC_NO, KC_NO,  KC_END, KC_PGDN,
                                   KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,   KC_TRNS,  MO(3),  KC_DEL, KC_TRNS),
 
 
